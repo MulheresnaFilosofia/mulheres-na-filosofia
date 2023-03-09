@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Actor&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Phudu&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html {
+	font-size: 62.5%;
+  	font-family: "Poppins", sans-serif;
+}
+body {
+	background: linear-gradient(-145deg,#E0AAFF,#9d4edd) fixed;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 10vh;
+	color: #fff;
+}
+.main {
+	height: 100vh;
+	width: 100%;
+	display: grid;
+	grid-template-columns:repeat(auto-fit, minmax(25rem, 1fr));
+	grid-template-rows: repeat(4, 3fr);
+	padding-top: 60px;
+	grid-gap: 30px;
+	column-gap: 0px;
+}
+.card {
+	display: grid;
+	background-color: #A06CD5;
+	grid-template-rows: repeat(2fr);
+	border: 4px solid #000;
+	box-shadow: 3px 2px #000;
+	border-radius: 10px;
+	width: 20rem;
+	padding: 5px;
+	height: 30rem;
+	justify-content: center;
+	font-size: 1.8rem;
+	margin:20px 5px 5px 20px;
+}
+.nav {
+  position: relative;
+  margin-top: 0;
+  font-family: "Actor", sans-serif;
+  display: inline-flex;
+  box-shadow: 4px 5px 2px #000;
+  justify-content: end;
+  align-self: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 4rem;
+  background-color: #815AC0;
+  position: fixed;
+  z-index: 1;
+  overflow: hidden;
+}
+.nav ul a {
+  padding: 10px 50px 10px 0;
+  font-size: 1.8rem;
+  text-decoration: none;
+  color:#edf6f9;
+}
+.nav ul a:hover {
+	text-decoration: underline;
+}
+i {
+	padding: 5px;
+	vertical-align: middle;
+}
+.a {
+	border: none;
+	border-radius: 5px;
+	width: 60%;
+	padding: 5px;
+	color: #2e294e;
+  	background-color: #e9ecef;
+	text-decoration: none;
+	text-align: center;
+	font-family: fantasy;
+	font-size: 1.6rem;
+	margin: 5px auto;
+	align-self: end;
+	position: relative;
+	transition: .4s;
+	box-shadow: 0px 4px #000;
+}
+#imgD {
+	border: none;
+}
+.a:hover {
+	background-color: #10002b;
+	color: #fff;
+}
+.legend {
+	position: relative;
+  	color: #ffe5ec;
+  	font-family: 'Phudu';
+	align-self: flex-start;
+	width: 100%;
+  	font-size: 2.5rem;
+	text-align: center;
+	margin: 2px;
+  	padding: 5px;
+}
+.img {
+	position: relative;
+	overflow: scroll;
+	width: 15rem;
+	height: 100%;
+	border: 2px solid rgb(119, 119, 119);
+	margin: auto;
+	align-self: center;
+  	border-radius: 5px;
+}
+@media (max-width: 480px) {
+	.main {
+		grid-template-columns: 1fr 1fr;
+	}
+	.card {
+		transform: scale(.9);
+	}
+}
+
+@media (min-width:320px) and (max-width: 479px){
+	.nav ul{
+		align-items: center;
+		margin: 0 auto;
+	}
+	.nav ul a{
+		text-align: center;
+		padding: 5px;
+	}
+	.card {
+		min-width: 25rem;
+		height: 40rem;
+	}
+	.a {
+		align-self: center;
+	}
+	.legend {
+		align-self: center;
+		font-size: 2.5rem;
+	}
+	.main {
+		display: grid;
+		width: min-content;
+		grid-template-columns: 1fr;
+		margin: 0 auto;
+	}
+}
