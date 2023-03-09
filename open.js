@@ -20,6 +20,7 @@ const btn19 = document.getElementById("simonedebeauvoir");
 const btn20 = document.getElementById("simoneweil");
 const btn21 = document.getElementById("lady_murasaki");
 const btn22 = document.getElementById("susanhack");
+const btn23 = document.getElementById("sueli_carneiro");
 
 
 btn1.addEventListener("click", function() {
@@ -92,4 +93,7 @@ btn21.addEventListener("click", function() {
 });
 btn22.addEventListener("click", function() {
   window.open("Arquivos/Pdfs/Susan Haack.pdf");
+});
+btn23.addEventListener("click", function() {
+  window.open("Arquivos/Pdfs/Sueli Carneiro.pdf");
 });
