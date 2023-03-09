@@ -58,13 +58,13 @@ btn10.addEventListener("click", function() {
   window.open("Arquivos/Pdfs/Lélia Gonzales.pdf");
 });
 btn11.addEventListener("click", function() {
-  window.open("Arquivos/Pdfs/Maria de Gournay.pdf");
+  window.open("Arquivos/Pdfs/María Zambrano.pdf");
 });
 btn12.addEventListener("click", function() {
-  window.open("Arquivos/Pdfs/Mary Wollstonecraft.pdf");
+  window.open("Arquivos/Pdfs/Marie de Gournay.pdf");
 });
 btn13.addEventListener("click", function() {
-  window.open("Arquivos/Pdfs/María Zambrano.pdf");
+  window.open("Arquivos/Pdfs/Mary Wollstonecraft.pdf");
 });
 btn14.addEventListener("click", function() {
   window.open("Arquivos/Pdfs/Nancy Fraser.pdf");
