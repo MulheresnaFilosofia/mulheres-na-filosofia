@@ -189,3 +189,12 @@ i {
         flex-wrap: wrap;
     }
 }
+@media (max-width: 360px) and (max-height: 700px) {
+    .dvimg {
+        margin-top: 20px;
+    }
+    img {
+        width: auto;
+        height: auto;   
+    }
+}
