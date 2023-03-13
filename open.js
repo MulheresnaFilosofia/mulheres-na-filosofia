@@ -21,7 +21,8 @@ const btn20 = document.getElementById("simoneweil");
 const btn21 = document.getElementById("lady_murasaki");
 const btn22 = document.getElementById("susanhack");
 const btn23 = document.getElementById("sueli_carneiro");
-
+const btn24 = document.getElementById("nise");
+const btn25 = document.getElementById("floresta");
 
 btn1.addEventListener("click", function() {
   window.open("Arquivos/Pdfs/Aspásia de Mileto.pdf");
@@ -96,4 +97,10 @@ btn22.addEventListener("click", function() {
 });
 btn23.addEventListener("click", function() {
   window.open("Arquivos/Pdfs/Sueli Carneiro.pdf");
+});
+btn24.addEventListener("click", function() {
+  window.open("Arquivos/Pdfs/Nise da Silveira.pdf");
+});
+btn25.addEventListener("click", function() {
+  window.open("Arquivos/Pdfs/Nísia FLoresta.pdf");
 });
